@@ -1,4 +1,3 @@
-
 {
   "token": "Nzg0MzAzNzU2OTI1NDY4NzEz.X8nVyw.0fGWMGX1SbAzfZVcAR54VTjnkHg",
   "prefix": "+",
@@ -46,7 +45,8 @@
 
 
   "status": {
-    "text": "!help |verfy soon",
-    "type": "STREAMING", "COMMENT:": "TYPES ARE: PLAYING, STREAMING, WATCHING, LISTENING",
-    "url": "https://twitch.tv/haaama01"
+    "text": ">help |PORE",
+    "type": ",PLAYING,"
   }
+
+}
