@@ -47,7 +47,7 @@ module.exports = {
                     .addField("\u200b", `\u200b`, true)
                     .addField("💻 Platform", `\`\`${os.platform()}\`\``, true)
                     .addField("API Latency", `\`${client.ws.ping}ms\``, true)
-                    .addFiled("OWNER BOT"  <@!743887896481628190>");
+                    .setFoter("BOT BY  <@!743887896481628190>");
                 message.channel.send(botinfo);
             })
         } catch (e) {
