@@ -47,19 +47,19 @@ module.exports = {
           .setFooter("react with the right emoji!", ee.footericon)
           .setTitle("Pick the right Category")
           .setDescription(`
-💪  **==>**<a:emoji:845279141874892840>To see the **Source Help**Commands<a:emoji_13:845279170333900870>
+💪 **=>**<a:emoji:845279141874892840>To see the **Source Help**Commands<a:emoji_13:845279170333900870>
 
-💰  **==>**<a:emoji:845279141874892840>To see the **Premium**Commands<a:emoji_13:845279170333900870>
+💰 **=>**<a:emoji:845279141874892840>To see the **Premium**Commands<a:emoji_13:845279170333900870>
 
-🔰  **==>**<a:emoji:845279141874892840>Tosee the **Information**Commands<a:emoji_13:845279170333900870>
+🔰 **=>**<a:emoji:845279141874892840>Tosee the **Information**Commands<a:emoji_13:845279170333900870>
 
-🕹️  **==>**<a:emoji:845279141874892840>Tosee the **Fun**Commands<a:emoji_13:845279170333900870>
+🕹️ **=>**<a:emoji:845279141874892840>Tosee the **Fun**Commands<a:emoji_13:845279170333900870>
 
-🎶  **==>**<a:emoji:845279141874892840>Tosee the **Music**Commands<a:emoji_13:845279170333900870>
+🎶 **=>**<a:emoji:845279141874892840>Tosee the **Music**Commands<a:emoji_13:845279170333900870>
 
-👀  **==>**<a:emoji:845279141874892840>Tosee the **Audio Filter**Commands<a:emoji_13:845279170333900870>
+👀 **=>**<a:emoji:845279141874892840>Tosee the **Audio Filter**Commands<a:emoji_13:845279170333900870>
 
-⚜️  **==>**<a:emoji:845279141874892840>Tosee the **Saved (custom)**Commands<a:emoji_13:845279170333900870>
+⚜️ **=>**<a:emoji:845279141874892840>Tosee the **Saved (custom)**Commands<a:emoji_13:845279170333900870>
 ${owner == true ? `\n👑 **==>** To see the **Owner** Commands` : ""}
 ${userperms == true ? `\n⚙️ **==>** To see the **Setting** Commands
 
