@@ -1,7 +1,7 @@
 
 {
-  "token": "Nzg0MzAzNzU2OTI1NDY4NzEz.X8nVyw.0fGWMGX1SbAzfZVcAR54VTjnkHg",
-  "prefix": "1",
+  "token": "Nzg0MzAzNzU2OTI1NDY4NzEz.X8nVyw.6BY51oAEHTjhemrgKJEfzfTP_Ik",
+  "prefix": "+",
 
   "clientsettings": {
     "nodes": [
@@ -46,6 +46,11 @@
 
 
   "status": {
-    "text": "!help |verfy soon",
-    "type": "PLAYING", "COMMENT:": "TYPES ARE: PLAYING, STREAMING, WATCHING, LISTENING",
+    "text": ">help |PORE",
+       "type": "STREAMING", "COMMENT:": "TYPES ARE: PLAYING, STREAMING, WATCHING, LISTENING",
+    "url": "https://twitch.tv/haaama01"
+ 
   }
+
+}
+
