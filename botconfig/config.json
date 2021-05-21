@@ -47,6 +47,5 @@
 
   "status": {
     "text": "!help |verfy soon",
-    "type": "STREMING", "COMMENT:": "TYPES ARE: PLAYING, STREAMING, WATCHING, LISTENING",
-    "url": "https://twitch.tv/haaama01"
+    "type": "PLAYING", "COMMENT:": "TYPES ARE: PLAYING, STREAMING, WATCHING, LISTENING",
   }
