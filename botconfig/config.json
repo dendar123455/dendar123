@@ -1,6 +1,7 @@
+
 {
-  "token": "Nzg0MzAzNzU2OTI1NDY4NzEz.X8nVyw.0fGWMGX1SbAzfZVcAR54VTjnkHg",
-  "prefix": "+",
+  "token": "",
+  "prefix": "1",
 
   "clientsettings": {
     "nodes": [
@@ -45,8 +46,6 @@
 
 
   "status": {
-    "text": ">help |PORE",
-       "type": "TYPES ARE: PLAYING",
+    "text": "!help |verfy soon",
+    "type": "PLAYING", "COMMENT:": "TYPES ARE: PLAYING, STREAMING, WATCHING, LISTENING",
   }
-
-}
