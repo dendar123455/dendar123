@@ -46,7 +46,8 @@
 
   "status": {
     "text": "?help |PORE",
-    "type": ",PLAYING,"
+     "type": "STREAMING", "COMMENT:": "TYPES ARE: PLAYING, STREAMING, WATCHING, LISTENING",
+
   }
 
 }
