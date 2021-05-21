@@ -47,25 +47,25 @@ module.exports = {
           .setFooter("react with the right emoji!", ee.footericon)
           .setTitle("Pick the right Category")
           .setDescription(`
-💪  **==>** To see the **Source Help** Commands
+💪  **==>** <a:emoji:845279141874892840> To see the **Source Help** Commands <a:emoji_13:845279170333900870>
 
-💰  **==>** To see the **Premium** Commands
+💰  **==>** <a:emoji:845279141874892840>To see the **Premium** Commands <a:emoji_13:845279170333900870>
 
-🔰  **==>** To see the **Information** Commands
+🔰  **==>** <a:emoji:845279141874892840> To see the **Information** Commands <a:emoji_13:845279170333900870>
 
-🕹️  **==>** To see the **Fun** Commands
+🕹️  **==>** <a:emoji:845279141874892840> To see the **Fun** Commands <a:emoji_13:845279170333900870>
 
-🎶  **==>** To see the **Music** Commands
+🎶  **==>** <a:emoji:845279141874892840> To see the **Music** Commands <a:emoji_13:845279170333900870>
 
-👀  **==>** To see the **Audio Filter** Commands
+👀  **==>** <a:emoji:845279141874892840> To see the **Audio Filter** Commands <a:emoji_13:845279170333900870>
 
-⚜️  **==>** To see the **Saved (custom) Queue** Commands
+⚜️  **==>** <a:emoji:845279141874892840> To see the **Saved (custom) Queue** Commands <a:emoji_13:845279170333900870>
 ${owner == true ? `\n👑 **==>** To see the **Owner** Commands` : ""}
 ${userperms == true ? `\n⚙️ **==>** To see the **Setting** Commands
 
 🚫  **==>** To see the **Administration** Commands` : ""}
 `)
-          .setImage("https://cdn.discordapp.com/attachments/752548978259787806/820014471556759601/ezgif-1-2d764d377842.gif")
+          .setImage("")
 
         sendBaseEmbed();
 
