@@ -46,7 +46,7 @@
 
 
   "status": {
-    "text": ">help | ${client.guilds.cache.size} Server,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}",
+    "text": "+help ALL COMMAND| 40 sever",
        "type": "PLAYING", "COMMENT:": "TYPES ARE: PLAYING, STREAMING, WATCHING, LISTENING",
     "url": "https://twitch.tv/haaama01"
  
