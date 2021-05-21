@@ -52,16 +52,16 @@ module.exports = {
         const embeduserinfo = new MessageEmbed()
         try{embeduserinfo.setThumbnail(member.user.displayAvatarURL({ dynamic: true, size: 512 }))}catch{}
         try{embeduserinfo.setAuthor("Information about:   " + member.user.username + "#" + member.user.discriminator, member.user.displayAvatarURL({ dynamic: true }))}catch{}
-        try{embeduserinfo.addField('**❯ Username:**',`\`${member.user.username}#${member.user.discriminator}\``,true)}catch{}
-        try{embeduserinfo.addField('**❯ ID:**',`\`${member.id}\``,true)}catch{}
-        try{embeduserinfo.addField('**❯ Avatar:**',`[\`Link to avatar\`](${member.user.displayAvatarURL({ format: "png" })})`,true)}catch{}
-        try{embeduserinfo.addField('**❯ Date Joined DC:**',`\`${moment(member.user.createdTimestamp).format('LT')} ${moment(member.user.createdTimestamp).format('LL')}   ${moment(member.user.createdTimestamp).fromNow()}\``,true)}catch{}
-        try{embeduserinfo.addField('**❯ Date Joined Server:**',`\`${moment(member.joinedAt).format('LL LTS')}\``,true)}catch{}
-        try{embeduserinfo.addField('**❯ Flags:**',`\`${userFlags.length ? userFlags.map(flag => flags[flag]).join(', ') : 'None'}\``,true)}catch{}
-        try{embeduserinfo.addField('**❯ Status:**',`\`${member.user.presence.status}\``,true)}catch{}
-        try{embeduserinfo.addField('**❯ Game:**',`\`${member.user.presence.game || 'Not playing a game.'}\``,true)}catch{}
-        try{embeduserinfo.addField('**❯ Highest Role:**',`${member.roles.highest.id === message.guild.id ? 'None' : member.roles.highest}`,true)}catch{}
-        try{embeduserinfo.addField(`**❯ \`${roles.length}\` Roles:**`,`${roles.length < 10 ? roles.join('\n') : roles.length > 10 ? this.trimArray(roles) : 'None'}`)}catch{}
+        try{embeduserinfo.addField('**<a:emoji_13:845279170333900870> Username:**',`\`${member.user.username}#${member.user.discriminator}\``,true)}catch{}
+        try{embeduserinfo.addField('**<a:emoji_13:845279170333900870> ID:**',`\`${member.id}\``,true)}catch{}
+        try{embeduserinfo.addField('**<a:emoji_13:845279170333900870> Avatar:**',`[\`Link to avatar\`](${member.user.displayAvatarURL({ format: "png" })})`,true)}catch{}
+        try{embeduserinfo.addField('**<a:emoji_13:845279170333900870> Date Joined DC:**',`\`${moment(member.user.createdTimestamp).format('LT')} ${moment(member.user.createdTimestamp).format('LL')}   ${moment(member.user.createdTimestamp).fromNow()}\``,true)}catch{}
+        try{embeduserinfo.addField('**<a:emoji_13:845279170333900870> Date Joined Server:**',`\`${moment(member.joinedAt).format('LL LTS')}\``,true)}catch{}
+        try{embeduserinfo.addField('**<a:emoji_13:845279170333900870> Flags:**',`\`${userFlags.length ? userFlags.map(flag => flags[flag]).join(', ') : 'None'}\``,true)}catch{}
+        try{embeduserinfo.addField('**<a:emoji_13:845279170333900870> Status:**',`\`${member.user.presence.status}\``,true)}catch{}
+        try{embeduserinfo.addField('**<a:emoji_13:845279170333900870> Game:**',`\`${member.user.presence.game || 'Not playing a game.'}\``,true)}catch{}
+        try{embeduserinfo.addField('**<a:emoji_13:845279170333900870> Highest Role:**',`${member.roles.highest.id === message.guild.id ? 'None' : member.roles.highest}`,true)}catch{}
+        try{embeduserinfo.addField(`**<a:emoji_13:845279170333900870> \`${roles.length}\` Roles:**`,`${roles.length < 10 ? roles.join('\n') : roles.length > 10 ? this.trimArray(roles) : 'None'}`)}catch{}
         embeduserinfo.setColor(ee.color)
         embeduserinfo.setFooter(ee.footertext, ee.footericon)
 
