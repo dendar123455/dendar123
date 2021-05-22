@@ -45,9 +45,9 @@
   "ownerIDS": ["640204311262920764"],
 
 
-  "status": {
+  "status": "{${client.guilds.cache.size} Server,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}",
     "text":"+help ALL COMMAND| 40 sever",
-       "type": "${client.guilds.cache.size} Server,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}","PLAYING", "COMMENT:": "TYPES ARE: PLAYING, STREAMING, WATCHING, LISTENING",
+       "type": "PLAYING", "COMMENT:": "TYPES ARE: PLAYING, STREAMING, WATCHING, LISTENING",
     "url": "https://twitch.tv/haaama01"
  
   }
