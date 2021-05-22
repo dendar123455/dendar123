@@ -19,7 +19,6 @@ module.exports = {
         .setFooter(ee.footertext, ee.footericon)
         .setURL("https://discord.com/api/oauth2/authorize?client_id=784303756925468713&permissions=8&scope=bot")
         .setDescription("[Click here](https://discord.com/api/oauth2/authorize?client_id=784303756925468713&permissions=8&scope=bot)")       
-        .setImage("https://media.discordapp.net/attachments/790836700561670145/845115639412555796/image0.gif")
       );
     } catch (e) {
       console.log(String(e.stack).bgRed)
