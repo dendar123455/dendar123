@@ -14,11 +14,12 @@ module.exports = {
   run: async (client, message, args, user, text, prefix) => {
     try {
       message.channel.send(new MessageEmbed()
-        .setColor(ee.color)
+        .setColor(#0086ff)
         .setTitle(":heart: Thanks for inviting me!")
         .setFooter(ee.footertext, ee.footericon)
-        .setURL("https://discord.com/api/oauth2/authorize?client_id=742672021422342165&permissions=8&scope=bot")
-        .setDescription("[Click here](https://discord.com/api/oauth2/authorize?client_id=742672021422342165&permissions=8&scope=bot)")
+        .setURL("https://discord.com/api/oauth2/authorize?client_id=784303756925468713&permissions=8&scope=bot")
+        .setDescription("[Click here](https://discord.com/api/oauth2/authorize?client_id=784303756925468713&permissions=8&scope=bot)")       
+        .setImage("https://media.discordapp.net/attachments/790836700561670145/845115639412555796/image0.gif")
       );
     } catch (e) {
       console.log(String(e.stack).bgRed)
