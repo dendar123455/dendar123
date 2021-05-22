@@ -65,7 +65,7 @@ ${userperms == true ? `\n⚙️ **==>** To see the **Setting** Commands
 
 🚫  **==>** To see the **Administration** Commands` : ""}
 `)
-          .setImage("")
+          .setImage("https://media.discordapp.net/attachments/790836700561670145/845115639412555796/image0.gif | https://media.discordapp.net/attachments/790836700561670145/845115639412555796/image0.gif ")
 
         sendBaseEmbed();
 
